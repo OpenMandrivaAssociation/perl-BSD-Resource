@@ -9,6 +9,7 @@ Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/BSD/%{module}-%{version}.tar.bz2
 BuildRequires:	perl-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 %{module} module for perl
