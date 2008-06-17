@@ -3,7 +3,7 @@
 Summary:	BSD process resource limit and priority functions
 Name:		perl-%{module}
 Version:	1.29
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 URL:		http://search.cpan.org/dist/%{module}/
