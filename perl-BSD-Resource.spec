@@ -41,5 +41,3 @@ rm -rf %{buildroot}
 %{perl_vendorarch}/BSD
 %{perl_vendorarch}/auto/BSD
 %{_mandir}/man*/*
-
-
