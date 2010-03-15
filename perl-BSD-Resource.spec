@@ -1,5 +1,5 @@
-%define	upstream_name	BSD-Resource
-%define	upstream_version 1.2903
+%define	upstream_name	 BSD-Resource
+%define upstream_version 1.2904
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -12,6 +12,7 @@ URL:		http://search.cpan.org/dist/%{upstream_name}/
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/BSD/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 
 %description
@@ -25,7 +26,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 %make CFLAGS="%{optflags}"
 
 %check
-%{__make} test
+%make test
 
 %install
 rm -rf %{buildroot}
