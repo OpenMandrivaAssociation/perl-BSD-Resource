@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	9
+Release:	10
 
 Summary:	BSD process resource limit and priority functions
 License:	GPL+ or Artistic
@@ -70,7 +70,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 + Revision: 564360
 - rebuild for perl 5.12.1
 
-* Tue Jul 20 2010 Jérôme Quelin <jquelin@mandriva.org> 1.290.400-3mdv2011.0
+* Tue Jul 20 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.290.400-3mdv2011.0
 + Revision: 555688
 - rebuild
 
@@ -78,19 +78,19 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 + Revision: 555440
 - rebuild
 
-* Mon Mar 15 2010 Jérôme Quelin <jquelin@mandriva.org> 1.290.400-1mdv2010.1
+* Mon Mar 15 2010 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.290.400-1mdv2010.1
 + Revision: 519947
 - update to 1.2904
 
   + Guillaume Rousse <guillomovitch@mandriva.org>
     - update to new version 1.2903
 
-* Sat Aug 01 2009 Jérôme Quelin <jquelin@mandriva.org> 1.290.300-2mdv2010.0
+* Sat Aug 01 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.290.300-2mdv2010.0
 + Revision: 405787
 - bumping mkrel to force rebuild
 - rebuild
 
-* Sun Jul 12 2009 Jérôme Quelin <jquelin@mandriva.org> 1.290.300-1mdv2010.0
+* Sun Jul 12 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.290.300-1mdv2010.0
 + Revision: 395064
 - update to 1.2903
 - using %%perl_convert_version
@@ -153,7 +153,7 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 * Mon Nov 15 2004 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 1.24-2mdk
 - Rebuild for new perl
 
-* Tue Apr 20 2004 Per �yvind Karlsen <peroyvind@linux-mandrake.com> 1.24-1mdk
+* Tue Apr 20 2004 Per Øyvind Karlsen <peroyvind@linux-mandrake.com> 1.24-1mdk
 - 1.24
 - disable test
 
