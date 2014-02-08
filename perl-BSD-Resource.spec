@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	10
+Release:	11
 
 Summary:	BSD process resource limit and priority functions
 License:	GPL+ or Artistic
