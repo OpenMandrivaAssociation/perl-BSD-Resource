@@ -4,10 +4,10 @@
 Summary:	BSD process resource limit and priority functions
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}/
+Url:		http://metacpan.org/pod/BSD::Resource
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/BSD/BSD-Resource-%{upstream_version}.tar.gz
 BuildRequires:	perl-devel
 
@@ -25,7 +25,7 @@ BuildRequires:	perl-devel
 %make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc ChangeLog README
