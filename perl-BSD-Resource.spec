@@ -1,10 +1,11 @@
+%global _empty_manifest_terminate_build 0
 %define	upstream_name	 BSD-Resource
 %define upstream_version 1.2911
 
 Summary:	BSD process resource limit and priority functions
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	5
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/BSD::Resource
