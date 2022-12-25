@@ -5,7 +5,7 @@
 Summary:	BSD process resource limit and priority functions
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/BSD::Resource
