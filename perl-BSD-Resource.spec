@@ -1,22 +1,21 @@
-%global _empty_manifest_terminate_build 0
+%undefine _debugsource_packages
 %define	upstream_name	 BSD-Resource
-%define upstream_version 1.2911
 
 Summary:	BSD process resource limit and priority functions
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
+Version:	1.2911
 Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://metacpan.org/pod/BSD::Resource
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/BSD/BSD-Resource-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/BSD/BSD-Resource-%{version}.tar.gz
 BuildRequires:	perl-devel
 
 %description
 %{upstream_name} module for perl
 
 %prep
-%setup -qn %{upstream_name}-%{upstream_version}
+%autosetup -p1 -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
