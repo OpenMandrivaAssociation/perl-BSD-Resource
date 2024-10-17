@@ -7,7 +7,7 @@ Version:	1.2911
 Release:	3
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
-Url:		http://metacpan.org/pod/BSD::Resource
+Url:		https://metacpan.org/pod/BSD::Resource
 Source0:	http://www.cpan.org/modules/by-module/BSD/BSD-Resource-%{version}.tar.gz
 BuildRequires:	perl-devel
 
